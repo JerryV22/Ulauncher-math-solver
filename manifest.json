@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Math Solver",
+  "description": "Solves math equalities and inequalities. Provides answers both in unicode and latex",
+  "developer_name": "Jer V",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "math_solver",
+      "type": "keyword",
+      "name": "Math Solver",
+      "description": "Solves math equalities and inequalities. Provides answers both in unicode and latex",
+      "default_value": "solve"
+    }
+  ]
+}
